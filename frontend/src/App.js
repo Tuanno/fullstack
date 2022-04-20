@@ -5,6 +5,9 @@ import EditPokemon from "./components/EditPokemon";
 import TypeList from "./components/TypeList";
 import AddType from "./components/AddType";
 import EditType from "./components/EditType";
+import CoacheList from "./components/CoacheList";
+import AddCoache from "./components/AddCoache";
+import EditCoache from "./components/EditCoache";
  
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Route path="/list" element={ <TypeList/> } />
           <Route path="/add/type" element={ <AddType/> } />
           <Route path="/edit/type/:id" element={ <EditType/> } />
+          <Route path="/Coache" element={ <CoacheList/> } />
+          <Route path="/add/coache" element={ <AddCoache/> } />
+          <Route path="/edit/coache/:id" element={ <EditCoache/> } />
         </Routes>
       </div>
     </Router>

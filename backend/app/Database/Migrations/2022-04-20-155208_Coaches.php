@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Pokemons extends Migration
+class Coaches extends Migration
 {
     public function up()
     {
@@ -18,14 +18,9 @@ class Pokemons extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 45,
             ],
-            'level' => [
-                'type' => 'INT',
-                'constraint' => 11,
-            ],
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('pokemons');
-        $this->$forge->addForeignKey('types_id', 'types', 'id');
+        $this->forge->createTable('coaches');
     }
 
     public function down()
