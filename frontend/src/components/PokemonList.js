@@ -22,7 +22,7 @@ const PokemonList = () => {
  
     return (
         <div>
-            <Link to="/add" className="button is-primary mt-5">Add New</Link>
+            <Link to="/add" className="button is-primary mt-5">AddPokemon</Link>
             <table className="table is-striped is-fullwidth">
                 <thead>
                     <tr>

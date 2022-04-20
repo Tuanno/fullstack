@@ -40,7 +40,7 @@ const AddPokemon = () => {
                     />
                 </div>
                 <div className="field">
-                    <button className="button is-primary">Save</button>
+                    <button className="button is-primary">Enviar</button>
                 </div>
             </form>
         </div>
